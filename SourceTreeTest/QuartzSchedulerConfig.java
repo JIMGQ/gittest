@@ -31,4 +31,5 @@ import java.util.Properties;
 @Configuration
 @ConditionalOnProperty(value = "backsys.useQuartz", havingValue = "true", matchIfMissing = false)
 public class QuartzSchedulerConfig {
+    int i= 0;
 }
