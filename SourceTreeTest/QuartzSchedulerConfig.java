@@ -32,4 +32,5 @@ import java.util.Properties;
 @ConditionalOnProperty(value = "backsys.useQuartz", havingValue = "true", matchIfMissing = false)
 public class QuartzSchedulerConfig {
     int i= 0;
+    int y= 0;
 }
